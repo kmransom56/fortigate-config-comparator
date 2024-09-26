@@ -55,6 +55,7 @@ def parse_config(lines):
                 config[current_section][key] = value
 
     return config
+
 # Function to compare configurations
 def compare_configs(config1, config2, ignore_keys=None):
     if ignore_keys is None:
@@ -65,9 +66,9 @@ def compare_configs(config1, config2, ignore_keys=None):
 
     for section in all_sections:
         if section not in config1:
-            differences.append(f"Section '{section}' is in config2 but not in config1")
+            differences.append(f"[Section Missing in config1]\n  Section: '{section}' is in config2 but not in config1\n")
         elif section not in config2:
-            differences.append(f"Section '{section}' is in config1 but not in config2")
+            differences.append(f"[Section Missing in config2]\n  Section: '{section}' is in config1 but not in config2\n")
         else:
             section1 = config1[section]
             section2 = config2[section]
@@ -77,9 +78,9 @@ def compare_configs(config1, config2, ignore_keys=None):
 
                 for subsection in all_subsections:
                     if subsection not in section1:
-                        differences.append(f"Subsection '{subsection}' in section '{section}' is in config2 but not in config1")
+                        differences.append(f"[Subsection Missing in config1]\n  Subsection: '{subsection}' in section '{section}' is in config2 but not in config1\n")
                     elif subsection not in section2:
-                        differences.append(f"Subsection '{subsection}' in section '{section}' is in config1 but not in config2")
+                        differences.append(f"[Subsection Missing in config2]\n  Subsection: '{subsection}' in section '{section}' is in config1 but not in config2\n")
                     else:
                         subsection1 = section1[subsection]
                         subsection2 = section2[subsection]
@@ -93,25 +94,28 @@ def compare_configs(config1, config2, ignore_keys=None):
                                 if 'image-base64' in key or 'vpn certificate' in key:
                                     continue
                                 if key not in subsection1:
-                                    differences.append(f"Key '{key}' in subsection '{subsection}' of section '{section}' is in config2 but not in config1")
+                                    differences.append(f"[Key Missing in config1]\n  Key: '{key}' in subsection '{subsection}' of section '{section}' is in config2 but not in config1\n")
                                 elif key not in subsection2:
-                                    differences.append(f"Key '{key}' in subsection '{subsection}' of section '{section}' is in config1 but not in config2")
+                                    differences.append(f"[Key Missing in config2]\n  Key: '{key}' in subsection '{subsection}' of section '{section}' is in config1 but not in config2\n")
                                 elif subsection1[key] != subsection2[key]:
-                                    differences.append(f"Value for key '{key}' in subsection '{subsection}' of section '{section}' differs: config1='{subsection1[key]}', config2='{subsection2[key]}'")
+                                    differences.append(f"[Value Difference]\n  Section: '{section}'\n  Subsection: '{subsection}'\n  Key: '{key}'\n  config1: '{subsection1[key]}'\n  config2: '{subsection2[key]}'\n")
                         else:
                             if subsection1 != subsection2:
-                                differences.append(f"Value for subsection '{subsection}' in section '{section}' differs: config1='{subsection1}', config2='{subsection2}'")
+                                differences.append(f"[Subsection Value Difference]\n  Section: '{section}'\n  Subsection: '{subsection}'\n  config1: '{subsection1}'\n  config2: '{subsection2}'\n")
             else:
                 if section1 != section2:
-                    differences.append(f"Value for section '{section}' differs: config1='{section1}', config2='{section2}'")
+                    differences.append(f"[Section Value Difference]\n  Section: '{section}'\n  config1: '{section1}'\n  config2: '{section2}'\n")
 
     return differences
 
 # Function to write differences to a file
 def write_differences_to_file(differences, output_file):
     with open(output_file, 'w') as file:
-        for diff in differences:
-            file.write(diff + '\n')
+        if not differences:
+            file.write("No differences found between the configurations.\n")
+        else:
+            for diff in differences:
+                file.write(diff + '\n')
 
 # Main function to load, parse, compare configurations, and write differences
 def main():
@@ -135,16 +139,13 @@ def main():
         config1 = parse_config(config1_lines)
         config2 = parse_config(config2_lines)
 
-         # You can customize this list based on your needs
+        # You can customize this list based on your needs
         ignore_keys = ['hostname', 'set-date', 'set password','set passphrase','set psksecret','set secret','set secondary-secret']
 
         differences = compare_configs(config1, config2, ignore_keys)
 
-        if not differences:
-            print("No differences found between the configurations.")
-        else:
-            write_differences_to_file(differences, output_file)
-            print(f"Differences written to {output_file}")
+        write_differences_to_file(differences, output_file)
+        print(f"Differences written to {output_file}")
 
     except FileNotFoundError as e:
         print(e)
@@ -156,4 +157,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
