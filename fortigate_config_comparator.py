@@ -1,15 +1,12 @@
 import re
 import os
-import traceback           
-DEFAULT_DIRECTORY = r"C:/Users/keith.ransom/OneDrive - Inspire Brands/Documents/Fortigate configs"
 
 # Function to read configuration file
 def read_config_file(file_path):
-    full_path = os.path.join(DEFAULT_DIRECTORY, file_path)
-    if not os.path.exists(full_path):
-        raise FileNotFoundError(f"File not found: {full_path}")
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"File not found: {file_path}")
     
-    with open(full_path, 'r') as file:
+    with open(file_path, 'r') as file:
         return file.read().splitlines()
 
 # Function to parse configuration file
@@ -17,104 +14,145 @@ def parse_config(lines):
     config = {}
     current_section = None
     current_subsection = None
+    skip_public_key = False
 
-    for line_num, line in enumerate(lines, start=1):
+    for line in lines:
         line = line.strip()
+        if not line or line.startswith('#'):
+            continue
 
-        if line.startswith('config'):
-            current_section = line.split(' ', 1)[1].strip()
+        if line.startswith('config '):
+            current_section = line[7:]
             config[current_section] = {}
-            current_subsection = 'global'  # Reset subsection when entering a new section
-        elif line.startswith('edit'):
-            parts = line.split(' ', 1)
-            if len(parts) < 2:
-                print(f"Warning: Malformed 'edit' line at line {line_num}: {line}")
+            current_subsection = None
+        elif line.startswith('edit '):
+            if current_section:
+                current_subsection = line[5:].strip('"')
+                config[current_section][current_subsection] = {}
+        elif line == 'end':
+            if current_subsection:
+                current_subsection = None
+            elif current_section:
+                if not config[current_section]:
+                    del config[current_section]
+                current_section = None
+            skip_public_key = False
+        elif '=' in line and current_section:
+            key, value = line.split('=', 1)
+            key = key.strip()
+            value = value.strip().strip('"')
+            
+            # Skip public key information
+            if key == 'ssh-public-key1':
+                skip_public_key = True
                 continue
-            current_subsection = parts[1].strip('"')
-            if current_section not in config:
-                print(f"Warning: 'edit' without 'config' at line {line_num}: {line}")
-                current_section = "unknown_section"
-                config[current_section] = {}
-            config[current_section][current_subsection] = {}
-        elif line.startswith('set') or line.startswith('unset'):
-            parts = line.split(' ', 2)
-            if len(parts) < 3:
-                print(f"Warning: Malformed 'set' or 'unset' line at line {line_num}: {line}")
+            if skip_public_key and key == 'set':
                 continue
-            key = parts[1]
-            value = parts[2].strip('"')
-            config[current_section][current_subsection][key] = value
+            
+            if current_subsection:
+                config[current_section][current_subsection][key] = value
+            else:
+                config[current_section][key] = value
 
     return config
 # Function to compare configurations
-def compare_configs(config1, config2):
+def compare_configs(config1, config2, ignore_keys=None):
+    if ignore_keys is None:
+        ignore_keys = []
     differences = []
 
-    for section in config1:
-        if section not in config2:
-            differences.append(f'Section {section} missing in config2')
-            continue
-        
-        for subsection in config1[section]:
-            if subsection not in config2[section]:
-                differences.append(f'Subsection {subsection} in section {section} missing in config2')
-                continue
-            
-            for key in config1[section][subsection]:
-                if key not in config2[section][subsection]:
-                    differences.append(f'Key {key} in subsection {subsection} of section {section} missing in config2')
-                elif config1[section][subsection][key] != config2[section][subsection][key]:
-                    differences.append(f'Value for key {key} in subsection {subsection} of section {section} differs:\n\tconfig1: {config1[section][subsection][key]}\n\tconfig2: {config2[section][subsection][key]}')
+    all_sections = set(config1.keys()) | set(config2.keys())
 
-    for section in config2:
+    for section in all_sections:
         if section not in config1:
-            differences.append(f'Section {section} missing in config1')
+            differences.append(f"Section '{section}' is in config2 but not in config1")
+        elif section not in config2:
+            differences.append(f"Section '{section}' is in config1 but not in config2")
+        else:
+            section1 = config1[section]
+            section2 = config2[section]
+
+            if isinstance(section1, dict) and isinstance(section2, dict):
+                all_subsections = set(section1.keys()) | set(section2.keys())
+
+                for subsection in all_subsections:
+                    if subsection not in section1:
+                        differences.append(f"Subsection '{subsection}' in section '{section}' is in config2 but not in config1")
+                    elif subsection not in section2:
+                        differences.append(f"Subsection '{subsection}' in section '{section}' is in config1 but not in config2")
+                    else:
+                        subsection1 = section1[subsection]
+                        subsection2 = section2[subsection]
+
+                        if isinstance(subsection1, dict) and isinstance(subsection2, dict):
+                            all_keys = set(subsection1.keys()) | set(subsection2.keys())
+
+                            for key in all_keys:
+                                if key in ignore_keys:
+                                    continue
+                                if 'image-base64' in key or 'vpn certificate' in key:
+                                    continue
+                                if key not in subsection1:
+                                    differences.append(f"Key '{key}' in subsection '{subsection}' of section '{section}' is in config2 but not in config1")
+                                elif key not in subsection2:
+                                    differences.append(f"Key '{key}' in subsection '{subsection}' of section '{section}' is in config1 but not in config2")
+                                elif subsection1[key] != subsection2[key]:
+                                    differences.append(f"Value for key '{key}' in subsection '{subsection}' of section '{section}' differs: config1='{subsection1[key]}', config2='{subsection2[key]}'")
+                        else:
+                            if subsection1 != subsection2:
+                                differences.append(f"Value for subsection '{subsection}' in section '{section}' differs: config1='{subsection1}', config2='{subsection2}'")
+            else:
+                if section1 != section2:
+                    differences.append(f"Value for section '{section}' differs: config1='{section1}', config2='{section2}'")
 
     return differences
 
 # Function to write differences to a file
 def write_differences_to_file(differences, output_file):
-    full_path = os.path.join(DEFAULT_DIRECTORY, output_file)
-    with open(full_path, 'w') as file:
+    with open(output_file, 'w') as file:
         for diff in differences:
             file.write(diff + '\n')
 
 # Main function to load, parse, compare configurations, and write differences
 def main():
     try:
-        print(f"Using default directory: {DEFAULT_DIRECTORY}")
-        print("Please enter file names without the full path.")
-        config1_path = input("Enter the name of the first configuration file: ")
-        config2_path = input("Enter the name of the second configuration file: ")
-        output_file = input("Enter the name for the output differences file: ")
+        # Set default directory
+        default_dir = os.getcwd()
 
-        print(f"Reading file 1: {config1_path}")
+        # Get input files with default paths
+        config1_path = input(f"Enter the name of the first configuration file (default directory: {default_dir}): ")
+        config2_path = input(f"Enter the name of the second configuration file (default directory: {default_dir}): ")
+        output_file = input(f"Enter the name for the output differences file (default directory: {default_dir}): ")
+
+        # Prepend the default directory if the user didn't provide a full path
+        config1_path = os.path.join(default_dir, config1_path) if not os.path.isabs(config1_path) else config1_path
+        config2_path = os.path.join(default_dir, config2_path) if not os.path.isabs(config2_path) else config2_path
+        output_file = os.path.join(default_dir, output_file) if not os.path.isabs(output_file) else output_file
+
         config1_lines = read_config_file(config1_path)
-        print(f"Reading file 2: {config2_path}")
         config2_lines = read_config_file(config2_path)
 
-        print("Parsing config 1")
         config1 = parse_config(config1_lines)
-        print("Parsing config 2")
         config2 = parse_config(config2_lines)
 
-        print("Comparing configs")
-        differences = compare_configs(config1, config2)
+         # You can customize this list based on your needs
+        ignore_keys = ['hostname', 'set-date', 'set password','set passphrase','set psksecret','set secret','set secondary-secret']
+
+        differences = compare_configs(config1, config2, ignore_keys)
 
         if not differences:
             print("No differences found between the configurations.")
         else:
-            full_output_path = os.path.join(DEFAULT_DIRECTORY, output_file)
-            print(f"Writing differences to {full_output_path}")
             write_differences_to_file(differences, output_file)
-            print(f"Differences written to {full_output_path}")
+            print(f"Differences written to {output_file}")
 
     except FileNotFoundError as e:
-        print(f"File not found error: {e}")
+        print(e)
     except Exception as e:
         print(f"An error occurred: {str(e)}")
+        import traceback
         print("Traceback:")
-        traceback.print_exc()
+        print(traceback.format_exc())
 
 if __name__ == "__main__":
     main()
