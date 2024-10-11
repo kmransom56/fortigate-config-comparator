@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface IPs</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Interface IPs</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Store Interface IPs</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Store</th>
+                            <th>IP Address</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ipTableBody">
+                        <!-- Rows will be added here by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Footer Content</p>
+    </footer>
+    <script>
+        async function fetchIPs() {
+            const response = await fetch('/fetch_ips', { method: 'POST' });
+            const result = await response.json();
+            alert(result.message);
+            loadIPs();
+        }
+
+        async function loadIPs() {
+            const response = await fetch('/get_ips');
+            const ips = await response.json();
+            const tableBody = document.getElementById('ipTableBody');
+            tableBody.innerHTML = '';
+            ips.forEach(ip => {
+                const row = document.createElement('tr');
+                const nameCell = document.createElement('td');
+                nameCell.textContent = ip[0];
+                const ipCell = document.createElement('td');
+                ipCell.textContent = ip[1];
+                row.appendChild(nameCell);
+                row.appendChild(ipCell);
+                tableBody.appendChild(row);
+            });
+        }
+
+        window.onload = loadIPs;
+    </script>
+</body>
+</html>

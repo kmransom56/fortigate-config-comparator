@@ -1,0 +1,1017 @@
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'V117_Micros' in section 'system interface' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'V40_SON-Utility' in section 'system interface' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'SON-Utility' in section 'system interface' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'default' in section 'emailfilter profile' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'sniffer-profile' in section 'emailfilter profile' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Infor_OpenIP' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Infor_SmartPointServer' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'LANDESK TCP 33354-33355' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Infor_SmartSeriesStandbyServer' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Infor_GeacCreaditAuthorizationService' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_TCP_135' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'LANDESK TCP 9535' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Infor_SQLServer' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Landesk_TCP_33370-33371' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_CAL_Server' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_Distributed_Service_Manager' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_KDS_Controller' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'LANDESK UDP 9595' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_UDP_5021' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_TCP_7303' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_MDS_HTTP_Service' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'LANDESK_TCP_4343' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'LANDESK TCP 9593-9595' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'LANDESK_UDP_9595' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Infor_ffma' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'LANDESK TCP 44343-44346' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_Tablet_Management_Service' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_UDP_5020' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_KDS_Display' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Infor_Parser' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_Cash_Management' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Landesk_UDP_3370-3371' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Infor_VNC' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'VNC' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_TCP_7677' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Infor_POS_Printer' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Infor_GeacKitchenBump' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Infor_GeacOrderConfirmationService' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_TCP_4567' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Infor_DDI' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Infor_WinEPS' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_Alert_Manager' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_SAP_Sybase_DB_Server' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_Stored_Value_Card_service' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_Caller_ID_Service' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Infor_HME' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Ivanti_Peer_Downloads' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_TCP_137' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'InforTermhandler' in section 'firewall service custom' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Stall_stats' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'BigFix 52311' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_SIS' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_International_Liquor_Dispensing_System' in section 'firewall service custom' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '200' in section 'webfilter urlfilter' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '5' in section 'webfilter urlfilter' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Inspire-FortiGate-RO' in section 'system admin' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Inspire-FortiGate-RW' in section 'system admin' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'QhPx1GexQNo' in subsection 'Fortinet_SSL_RSA1024' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'X2S33y8xBGc' in subsection 'Fortinet_SSL_RSA1024' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'ofo4pjNvnPXoNSITHxitUg' in subsection 'Fortinet_CA_Untrusted' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'JcLF5ufDYiBgKkI0Q3fm9w' in subsection 'Fortinet_CA_Untrusted' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'YLhW2tUH5tSEyD0UCP9Urg' in subsection 'Fortinet_SSL_DSA1024' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'O4fxQ+x7F3sBca/gZ5bHu/CEQL/kFrVZPsUFN8619FmjtPlg18Q5rQ' in subsection 'Fortinet_SSL_DSA1024' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'fspCh3sywnNGTQ/2Ew3Llbme6doyqNIXZ1frvCAbGEQJEytTFjxeoQ' in subsection 'Fortinet_SSL_DSA1024' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-02587]
+  Key: '6WLlXsPN9DZ2FJV0IjrTIO8' in subsection 'Fortinet_SSL_DSA1024' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'n5nOppVpEwFyY+IjVBHYcAF6DmbWp3L4mcSCIY3Ai8HZptUqaw' in subsection 'Fortinet_SSL_ECDSA384' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'EOkwg8NbHGu12RkPcvhsR69tG0KIRCMGx3MZP4thfRMKAgA' in subsection 'Fortinet_SSL_ED448' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'yw//QWW4ly5t2B2fHgGGtC4ecDp3Cj9GbePgcmgpa4dyDAA' in subsection 'Fortinet_SSL_ED448' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'ITTcBTS244HVFCS5AElVUQ' in subsection 'Fortinet_SSL' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'z3b0IjMopsEC9pvAEuQ5IQ' in subsection 'Fortinet_SSL' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'xGN03W3iwM+axifEEnMwxg' in subsection 'Fortinet_SSL_RSA4096' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'BQKAs8jFJ/LfY8xGMrUYXizz9dI' in subsection 'Fortinet_SSL_RSA4096' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'n+dDS5AYiMgd3vbk80AxJg' in subsection 'Fortinet_SSL_RSA4096' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'uehWM3BBfyVdnKisqVaZWmjFniU' in subsection 'Fortinet_SSL_RSA4096' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'cSNNDbGOnco3gfQ1LP30lA' in subsection 'Fortinet_SSL_RSA2048' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'WGJXzJTwwdgOHr2ERVpapg' in subsection 'Fortinet_SSL_RSA2048' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'iQxHVQB7Y1Qlfw' in subsection 'Fortinet_SSL_DSA2048' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'vWMHb+cGhPIKm64AFfX1bJWnNCSEHCvILKFBf6e9k/DGe86TwRStlA' in subsection 'Fortinet_SSL_DSA2048' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'eC8WNDs6fw' in subsection 'Fortinet_SSL_DSA2048' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-07997]
+  Key: '94FmaMlIofNkRs/bJIcR1c0DrmctVUSHZP8bJJtiGfKD2G5rqhdvYw' in subsection 'Fortinet_SSL_DSA2048' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'hNGx1OiX1LnQm4jALz/owA' in subsection 'Fortinet_CA_SSL' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'OVHsdgOkQ3CxF4QtFQS/8w' in subsection 'Fortinet_CA_SSL' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'T4/Kdy/IQw' in subsection 'Fortinet_CA_SSL' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'oqtcbeLlDxNKOPfzruKpCVU77vx1eCRKyWYPbH6qtTfYCm2bOZo' in subsection 'Fortinet_SSL_ECDSA256' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'Zg58OVpS3rHMxrop7LCvJ1ZdT2NlewatZw' in subsection 'Fortinet_SSL_ECDSA256' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'mnovSlJSAl2RfPwF5UtSjhETOW6y6RDgMuu4H0uxAxx1hrS3qko' in subsection 'Fortinet_SSL_ECDSA256' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'Dmbdj1mdNAU' in subsection 'Fortinet_SSL_ED25519' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'Tx/1T+My6A4' in subsection 'Fortinet_SSL_ED25519' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-02587]
+  Key: '5W3pH6XLaVNz88LE5KYviBngpmEEfDfK5naDGmMFFL7SsHMWP0eYDWBQbbQJghI' in subsection 'Fortinet_SSL_ECDSA521' of section 'vpn certificate local' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'YCwApkkCl+XF+3KQZms' in subsection 'Fortinet_SSL_ECDSA521' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'aMZXOQHc6PVR4/6NgIVu4pkYZ6IJ5HmrUgE6T3briCfnoB7pevSBU9N3P97dIPg' in subsection 'Fortinet_SSL_ECDSA521' of section 'vpn certificate local' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'default' in section 'auth' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'all_default_pass' in section 'ips sensor' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'default' in section 'ips sensor' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'SON-Utility' in section 'wireless-controller vap' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '1' in section 'system dhcp server' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '4' in section 'system dhcp server' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'no-inspection' in section 'firewall ssl-ssh-profile' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '__tmp_no-inspection' in section 'firewall ssl-ssh-profile' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Section Missing in IBR_SONIC-07997]
+  Section: 'content-id' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'update://windowsupdate/' in section 'wanopt content-delivery-network-rule' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'courtreserve.com' in section 'webfilter ftgd-local-rating' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-02587]
+  Key: '4FGyAfDHDKN1rD3cUDVjoStPqN3TdjGYntwbJWs2XhVkOtU8O0Fffe13Pr2b7s4' in subsection 'Fortinet_SSH_DSA1024' of section 'firewall ssh local-key' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: '6MEhHYkErGmfnfyvSX1frj93gZBjKF2v24/hsiAnFarX+O1gPQ2pzFPlq9S9+00' in subsection 'Fortinet_SSH_DSA1024' of section 'firewall ssh local-key' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'sKIwb7VKNWzX4qBqY3/r813onJxGXvZLVEVLZA' in subsection 'Fortinet_SSH_ECDSA256' of section 'firewall ssh local-key' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'NP7HZq94r7iuFbsuyppL8u4cNPTl1/MvcW/TTg' in subsection 'Fortinet_SSH_ECDSA256' of section 'firewall ssh local-key' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'TGwmpxi08z77bRHA' in subsection 'Fortinet_SSH_ED25519' of section 'firewall ssh local-key' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'NBXkIvcPnM8J/4cA' in subsection 'Fortinet_SSH_ED25519' of section 'firewall ssh local-key' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'q8RmBzag' in subsection 'Fortinet_SSH_RSA2048' of section 'firewall ssh local-key' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'cOwG6hTw' in subsection 'Fortinet_SSH_RSA2048' of section 'firewall ssh local-key' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '16' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '24' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '17' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '14' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '30' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '20' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '33' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '18' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '21' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '22' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '26' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '25' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '19' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '27' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '29' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '15' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '23' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '28' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '32' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '31' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '13' in section 'entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '102' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '114' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '30' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '105' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '21' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '25' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '120' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '19' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '107' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '23' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '7' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '9' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '24' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '123' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '20' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '111' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '109' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '8' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '10' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '22' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '26' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '106' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '122' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '100' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '113' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '103' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '110' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '119' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '101' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '112' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '116' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '121' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '115' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '117' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '29' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '28' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '108' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '104' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '118' in section 'router static' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '27' in section 'router static' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Section Missing in IBR_SONIC-02587]
+  Section: 'firewall sniffer' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'yoZfyFKw' in subsection 'Fortinet_SSH_CA' of section 'firewall ssh local-ca' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'uLNkmN/w' in subsection 'Fortinet_SSH_CA' of section 'firewall ssh local-ca' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'mpreRsMg' in subsection 'Fortinet_SSH_CA_Untrusted' of section 'firewall ssh local-ca' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'udECwBIg' in subsection 'Fortinet_SSH_CA_Untrusted' of section 'firewall ssh local-ca' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '37' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '39' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '63' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '65' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '54' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '38' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '42' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '45' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '46' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '35' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '57' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '60' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '44' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '52' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '55' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '58' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '66' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '69' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '75' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '41' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '74' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '76' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '48' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '43' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '77' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '47' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '62' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '61' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '40' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '67' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '73' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '50' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '53' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '59' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '56' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '36' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '51' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '68' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '64' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '70' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '49' in section 'filters' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '2' in section 'firewall shaping-policy' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'HA Failover' in section 'fields' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Incoming Webhook Call' in section 'fields' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'License Expired Notification' in section 'fields' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'FortiAnalyzer Connection Down' in section 'fields' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Conserve_Mode' in section 'fields' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Compromised Host Quarantine' in section 'fields' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'auth-intf-wqt.root' in section 'system replacemsg-group' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'auth-intf-quarantine' in section 'system replacemsg-group' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'default' in section 'system replacemsg-group' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'set login-passwd ENC pA0TInmILU1H/CPfzSpWCL83DB983hZOIU3zesay/Q17tNT0wJ15RaxREhBd/NtFNCGA/4uV3YUTU/sllhlFFowpWKm0eoF8O1Xtmw71DlgdpYYkhVBbDcUK01xcCgvBQppeSkiVCC+dEXlMbJpVbwpCWtcs3ppUG3oolawj7c7aokrD4fj0XiR+QoAqWZggiLPJqQ' in subsection 'default' of section 'switch-controller switch-profile' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'set login-passwd ENC bvsP+b5tyl1tCDhu6RHKuWbwriqewQffEeaEJN0ZnFgGINNTwWdl/gUAPMJXcb6Q1MtrFe15KNLdf7WhBC84BdO9HfsnRrYgQLWtoBAUqI4g1pIOs8VjgfxbzMFGFAkjLxTuIpYcQNn5TkBA8g+K8gj4izG81BDRZaJIJ7C5s7eGT2Ic5yd4VmiusxAFuO7/onOWyA' in subsection 'default' of section 'switch-controller switch-profile' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'S124EP5919002865' in section 'switch-controller managed-switch' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'S124EP5919007051' in section 'switch-controller managed-switch' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Section Missing in IBR_SONIC-02587]
+  Section: 'system replacemsg http "url-block"' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Network Down' in section 'system automation-stitch' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Compromised Host Quarantine' in section 'system automation-stitch' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'V116_LB_Tablet' in section 'system dns-server' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '__tmp_no-inspection' in section 'ssl-exempt' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'no-inspection' in section 'ssl-exempt' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '118' in section 'reserved-address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '2' in section 'reserved-address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '4' in section 'reserved-address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '40' in section 'reserved-address' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '3' in section 'reserved-address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'medium-priority-pos' in section 'firewall shaper traffic-shaper' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'low-priority' in section 'firewall shaper traffic-shaper' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-02587]
+  Key: 'set pattern "*start' in subsection '1' of section 'skip-entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Key Missing in IBR_SONIC-07997]
+  Key: 'set pattern "*begin' in subsection '1' of section 'skip-entries' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '2' in section 'match-entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '3' in section 'match-entries' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'FP223E5520010038' in section 'wireless-controller wtp' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'FP223E5521005772' in section 'wireless-controller wtp' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '9' in section 'system session-helper' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '248' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '190' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '239' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '244' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '247' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '140' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '301' in section 'firewall policy' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '246' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '258' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '261' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '302' in section 'firewall policy' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '280' in section 'firewall policy' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '230' in section 'firewall policy' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '75' in section 'firewall policy' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '236' in section 'firewall policy' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '231' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '95' in section 'firewall policy' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '235' in section 'firewall policy' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '262' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '165' in section 'firewall policy' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '229' in section 'firewall policy' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '257' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '303' in section 'firewall policy' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '256' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '243' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '249' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '241' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '232' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '50' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '270' in section 'firewall policy' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '237' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: '233' in section 'firewall policy' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: '290' in section 'firewall policy' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Azure_East_SEC_S4' in section 'vpn ipsec phase2-interface' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Azure_West_SEC_S4' in section 'vpn ipsec phase2-interface' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Azure_West_PRM_S4' in section 'vpn ipsec phase2-interface' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Azure_East_PRM_S4' in section 'vpn ipsec phase2-interface' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Micros_POS_Group' in section 'firewall service group' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Landesk-WindowsClient-Inbound' in section 'firewall service group' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'BigFix ports' in section 'firewall service group' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Infor_POS_Group' in section 'firewall service group' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'HA Failover' in section 'system automation-trigger' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Incoming Webhook Call' in section 'system automation-trigger' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'License Expired Notification' in section 'system automation-trigger' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'FortiAnalyzer Connection Down' in section 'system automation-trigger' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Conserve_Mode' in section 'system automation-trigger' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Compromised Host Quarantine' in section 'system automation-trigger' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'SONIC-VPN-LAN' in section 'firewall address' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'sftp.ml.datablend.com' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'boomenterprises.net' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'SSLVPN-Users' in section 'firewall address' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'GO.Microsoft' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Windows Time Server' in section 'firewall address' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'SDIUE1PLU20S01' in section 'firewall address' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'BigFix VDC server' in section 'firewall address' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'api.sonicdrivein.com' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'V117_Micros' in section 'firewall address' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'SSLVPN_Users' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'ibue1pfntjbx01' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'ftp.marchnetworks.com' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'ftp.824plus.com' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'datalinkis.com' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'dailypay.brickftp.com' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'files.envysion.com' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'lgglinux1.lggadvisors.com' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'SONIC-LAN' in section 'firewall address' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'secure.sonicreporting.com' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'connect.dailypay.com' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'go.microsoft.com' in section 'firewall address' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'ftp.inventoryxpress.net' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'ftp.abacusok.com' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'sftp.logicforte.com' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'LB_Tablets' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'SOH-ENT-LAN' in section 'firewall address' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'ftp.qsronline.com' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'sonicstorageftps.blob.core.windows.net' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'polling.delaget.com' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Store_DVR' in section 'firewall address' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'fileway.idashboards.cloud' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'connect.restaurant365.net' in section 'firewall address' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Comcast-LAB_CA2' in section 'vpn certificate ca' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Comcast-LAB_CA3' in section 'vpn certificate ca' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'ComcastStores_CA3' in section 'vpn certificate ca' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'Protocol_Profile' in section 'firewall profile-protocol-options' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'default' in section 'firewall profile-protocol-options' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'FTP_Servers' in section 'firewall addrgrp' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+
+[Subsection Missing in IBR_SONIC-02587]
+  Subsection: 'SOH-NOC-LAN_NLV' in section 'firewall addrgrp' is in IBR_SONIC-07997 but not in IBR_SONIC-02587
+
+[Subsection Missing in IBR_SONIC-07997]
+  Subsection: 'Verifone' in section 'firewall addrgrp' is in IBR_SONIC-02587 but not in IBR_SONIC-07997
+

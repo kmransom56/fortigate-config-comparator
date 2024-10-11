@@ -1,0 +1,196 @@
+config user radius 
+edit "Inspire_SecureW2"
+        set server "34.208.247.156"
+        set secret ENC kgCtMkNwTt3fI/jnz/+XcyhH2PQ0VoCuSeinM15dwCFn26mDjN7LMUP5kske/Ud+oQRcnXwzv6TI5AMz5H8jayhj3NVEk5oIEIdlyBfzUiTsXMDCZIaWxRxUYGPhWOzfM1JZ56yPuJ51Q7c9JzQlIA/RDsm+m0zZLwWRw9z/afZ/9gJS6k286NpzcYlnZ2AU9Kf/iw==
+        set all-usergroup enable
+        set radius-port 2228
+        set password-renewal disable
+        set secondary-server "44.235.57.40"
+        set secondary-secret ENC +QvF+FRJhTFZhWCC1sLa8IUGXwYfdURh3X4fZm9wM4bYMjAZj4hN0uS/IzxIzSUrwDRW0L3lCphJeAVpNugv87Vg0Mmi2RtfquHf2LO0KqvvyDwH4ZCd5WrWL/7RTz736QzHGgqt+Yb46Vane2OWXs+bAF0mamatpTFKGwBvsEJbqsZ0rz9vLVi/qe8xlbamR3D8AQ==
+    next
+end
+config wireless-controller vap
+    edit "Sonic_LB1"
+        set ssid "Sonic_LB1"
+        set security wpa2-only-enterprise
+        set auth radius
+        set radius-server "Inspire_SecureW2"
+        set local-bridging enable
+        set vlanid 100
+        set alias "b"
+    next
+    edit "Sonic_LB2"
+        set ssid "Sonic_LB2"
+        set security wpa2-only-enterprise
+        set auth radius
+        set radius-server "Inspire_SecureW2"
+        set local-bridging enable
+        set vlanid 100
+        set alias "b"
+    next
+end
+config system interface
+    edit "V116_LB_Tablet"
+        set vdom "root"
+        set ip 192.168.16.1 255.255.255.0
+        set device-identification enable
+        set role lan
+        set snmp-index 135
+        set interface "fortilink"
+        set vlanid 116
+    next
+    edit "Sonic_LB1"
+        set vdom "root"
+        set type vap-switch
+        set alias "b"
+        set device-identification enable
+        set role lan
+        set snmp-index 136
+		set interface "fortilink"
+    next
+    edit "Sonic_LB2"
+        set vdom "root"
+        set type vap-switch
+        set alias "b"
+        set device-identification enable
+        set role lan
+        set snmp-index 137
+		set interface "fortilink"
+    next
+end
+config system dhcp server
+    edit 1
+        set dns-service default
+        set ntp-service default
+        set default-gateway 192.168.16.1
+        set netmask 255.255.255.0
+        set interface "V116_LB_Tablet"
+        config ip-range
+            edit 1
+                set start-ip 192.168.16.110
+                set end-ip 192.168.16.117
+            next
+        end
+        set timezone-option default
+    next
+end
+config wireless-controller wtp-profile
+    edit "Local_POPS_FAP221E-Profile"
+        set handoff-sta-thresh 30
+        set handoff-roaming disable
+        set ap-country US
+        set allowaccess https ssh
+        set login-passwd-change yes
+        set login-passwd "2Y8RdVT"
+        config radio-2
+            set band 802.11ac
+            set vap-all bridge
+            set vap1 "V200_POP_SSID"
+            set vap2 "Sonic_LB1"
+            set vap3 "Sonic_LB2"
+            set channel "36" "40" "44" "48" "52" "56" "60" "64" "100" "104" "108" "112" "116" "120" "124" "128" "132" "136" "140" "144" "149" "153" "157" "161" "165"
+        end
+    next
+end
+config system interface
+edit "V118_ISOM"
+set vdom "root"
+set ip 192.168.18.1 255.255.255.0
+set allowaccess ping fabric
+set device-identification enable
+set snmp-index 138
+set interface "fortilink"
+set vlanid 118
+next
+end
+config user radius
+edit "Sonic_SecureW2"
+set server "34.208.247.156"
+set secret ENC EZzmVUpyaUD8NfP/TX3SuTnhFk1dTAIY/CZiKSg3dMaqgmik3ufgNS1g2y64Pb92y33stgZYLw1O20+t1ZhEe1Mr99WRE+BLYC5vuhj+ks6ctL7zzCKkFeZ8fZM0CuYX5/boB2tGdyQsJ5ntRxOLCEq8kpMIfxSx5UPUzzs/ElcxavCoCXZeyy785iubu6EEOznuAQ==
+set all-usergroup enable
+set radius-port 3648
+set password-renewal disable
+set secondary-server "44.235.57.40"
+set secondary-secret ENC boq/sTogxqydrH+KGXsIT4PLLRduw/43TikkO6dQs9c3lXxZBByhljOdtl2NYu50PWyRxdcxrqLoKH5HaSQsZtBy3oWJNM00gL3sBQPs5b7Uk0rWy1yc3JE8YvE//YmMa6du9E2R2SWuGhthzBNKZpEi6KONkDINDRX4XnYo6CrAC26WhQ1acuDGlXKPoEv9gDjsuA==
+next
+end
+config wireless-controller vap
+edit "Sonic_ISOM"
+set ssid "Sonic_ISOM"
+set security wpa2-only-enterprise
+set auth radius
+set radius-server "Sonic_SecureW2"
+set local-bridging enable
+set vlanid 118
+unset broadcast-suppression
+set rates-11bg 6
+set schedule "always"
+next
+end
+config system interface
+edit "Sonic_ISOM"
+set vdom "root"
+set type vap-switch
+set device-identification enable
+set role lan
+set snmp-index 139
+next
+end
+config system dns-server
+edit "V118_ISOM"
+set mode forward-only
+next
+end
+config system dhcp server
+edit 118
+set dns-service default
+set ntp-service default
+set default-gateway 192.168.18.1
+set netmask 255.255.255.0
+set interface "V118_ISOM"
+set timezone-option default
+config ip-range
+edit 1
+set start-ip 192.168.18.2
+set end-ip 192.168.18.254
+next
+end
+end
+config system interface
+edit "V40_SON-Utility"
+set vdom "root"
+set ip 192.168.14.254 255.255.255.0
+set allowaccess ping fabric
+set device-identification enable
+set role lan
+set snmp-index 40
+set interface "fortilink"
+set vlanid 40
+next
+end
+config system dhcp server
+edit 40
+set dns-service default
+set ntp-service default
+set default-gateway 192.168.14.254
+set netmask 255.255.255.0
+set interface "V40_SON-Utility" 
+set timezone-option default
+config ip-range
+edit 1
+set start-ip 192.168.14.1
+set end-ip  192.168.14.253 
+next
+end
+end
+config wireless-controller vap
+edit "SON-Utility"
+set ssid "SON-Utility"
+set passphrase %ip@tx5Nhy3Mr9 
+set local-bridging enable
+set broadcast-ssid disable
+set schedule "always"
+set vlanid 40
+next
+end
+ 
